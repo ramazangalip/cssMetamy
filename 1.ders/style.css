@@ -1,0 +1,90 @@
+/* * {
+    color: blue;
+    text-align: center;
+} */
+
+/* *h2{
+    color: red;
+}
+
+.center{
+    text-align: center;
+    color: black;
+}
+*#id1{
+    color: brown;
+}
+
+p.center{
+    color: green;
+}
+
+/* or selector -group selector */
+
+/* h1, h2{
+    color:rebeccapurple;
+} */
+/* descendant selector  */
+
+/* div b{
+    color: red;
+}
+/*  direct child selector */
+
+/* div > b{
+    color: chocolate;
+} */ 
+
+ /* background */
+
+/* body{
+    background-color:yellowgreen;
+    opacity: 0.7;
+} */
+
+/* p{
+    background: rgb(225, 225, 69);
+    
+} */
+ /* body{
+    background-image:url('metaworld.jpeg');
+    color:orange;
+    background-repeat:no-repeat;
+    background-position:center top ;
+    background-size:75% auto;
+    background-attachment: fixed;
+    margin-bottom: 1000px;
+     
+} */
+
+/* BORDERS */
+
+/* p{
+    border-style: double;
+    width: 300px;
+}
+h1{
+    border-style: dotted;
+}
+h2{
+    border-style: dashed;
+} */
+
+/* p{
+    border-style: double;
+    border-width: 10px;
+    border-color: blueviolet;
+} */
+
+/* h1{
+    border-style: groove;
+    border-color: greenyellow;
+} */
+
+p{
+ border-style: double;
+ border-radius: 10px;
+}
+
+
+
