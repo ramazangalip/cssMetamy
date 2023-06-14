@@ -1,0 +1,130 @@
+/* Margin Css  */
+/* h1{
+    border-style: double;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+div {
+    width: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: dashed;
+}
+p.center {
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: aquamarine;
+} */
+
+/* Padding css */
+
+/* h1{
+    padding-top: 78px;
+    padding-bottom: 78px;
+    border: 2px dashed red;
+} */
+
+/* h2{
+    background-color: blue;
+    padding: 10px;
+}
+
+p.center{
+    background-color: blueviolet;
+    padding: 30px 30px;
+} */
+
+/* div{
+    background-color: powderblue;
+    padding: 10px 10px 10px 10px;
+
+} */
+
+/* css outline */
+
+/* div{
+    width: 30%;
+    height: 100px;
+    background-color: aquamarine;
+    border:  2px solid navajowhite ;
+    margin: 30px;
+}
+div.firstDiv{
+    outline: 12px ridge red;
+    
+}
+div.secondDiv{
+    outline-width: 10px;
+    outline-style: ridge;
+    outline-color: brown;
+  
+} */
+/* css text*/
+
+/* h1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    color: blue;
+} */
+
+/* div{
+    border: 1px dashed black;
+    padding: 10px;
+    text-align: justify;
+    text-align-last: center;
+}
+div img {
+    vertical-align:bottom;
+} */
+
+/* h1{
+    text-decoration: underline;
+}
+h2{
+    text-transform: lowercase;
+} */
+
+/* div{
+    text-indent: 10px;
+    word-spacing: 10px;
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+} */
+/* h1{ 
+    text-shadow: 2px 2px brown;
+}*/
+/* blur-effect */
+
+/* h1{
+    text-shadow: 1px 1px 2px red;
+} */
+
+/* span {
+    writing-mode:vertical-lr;
+    color: red;
+    text-align: left;
+    height: 100px;
+    text-shadow: 1px 1px 3px black;
+} */
+
+/* css fonts */
+
+/* h1{
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight:100;
+   
+} */
+
+p.center{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
