@@ -1,0 +1,86 @@
+/* a:visited{
+    color:blueviolet
+}
+
+a:hover{
+    color:red;
+    background-color: blue;
+    border-radius: 3px;
+    
+}
+
+a:active{
+    color:green;
+    background-color: hotpink;
+}
+
+/* position class */
+
+/* a:first-child{
+    text-transform: uppercase;
+}
+a:last-child{
+    border: 2px dashed black;
+}
+a:nth-child(odd){
+    padding-bottom: 1px;
+}
+a:not(a:last-child){
+    font-family: fantasy;
+}
+
+/*  css tablolar */
+
+/* table,th,td{
+    border: 1px dotted black;
+}
+
+thead,td{
+    text-align: center;
+}
+
+table{
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+}  */
+
+li{
+    display: inline;
+    
+}
+span{
+    display: inline;
+}
+h2.hidden{
+ display: none;
+}
+
+
+div.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    text-align: center;
+}
+div.box2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    text-align: center;
+}
+div.box3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    text-align: center;
+}
