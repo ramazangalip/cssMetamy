@@ -1,0 +1,120 @@
+/* div{
+    width: 300px;
+    overflow: hidden;
+    border: 2px solid red;
+} */
+
+.div1{
+   background: red;
+   float: right;
+   padding: 18px;
+}
+
+.div2{
+    background: blue;
+    float: right;
+    padding: 18px;
+
+}
+.div3{
+    background: green;
+    padding: 18px;
+    float: left;
+}
+
+p{
+    clear: both;
+}
+
+/* psido elements */
+
+p::first-line{
+    color: chartreuse;
+    font-family:small-caps;
+}
+
+p::first-letter{
+    color: black;
+    font-size: xx-large;
+}
+p::before{
+    content: 'Merhaba ben ramazan galip';
+    color: blueviolet;
+}
+p::after{
+    content: 'paragraf biterken yazılcak metin';
+    color: red;
+}
+p::selection{
+    color: royalblue;
+    background: red;
+}
+
+/* css attributes selectors */
+
+a[target]{
+    border: 1px dashed brown;
+
+}
+
+input[type="text"]:focus{
+    background-color: blueviolet;
+
+}
+
+input[type="button"]:hover{
+    background-color: red;
+}
+
+input[value="buraya tıkla"]:active{
+    background-color: beige;
+}
+
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 3s;
+    transition-delay: 1s;
+}
+div.a:hover{
+    background-color: red;
+}
+
+div.b:hover{
+    border: 10px dotted blue;
+    
+} */
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 3s;
+    
+}
+
+/* div.transformx:hover{
+    transform: translateX(100px);
+}
+div.transformy:hover{
+    transform: translateY(100px);
+}
+div.transformz:hover{
+    transform: translateY(100px);
+
+} */
+
+div.transformx:hover{
+    transform: scale(1,2);
+}
