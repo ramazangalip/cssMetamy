@@ -1,0 +1,68 @@
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+    animation-name: örnek;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    border-radius: 5px;
+    animation-direction: alternate;
+} */
+
+/* @keyframes örnek{
+    from {background-color: blueviolet}
+    to {background-color: aqua;}
+} */
+/* @keyframes örnek{
+    0% {background-color: blueviolet}
+    25% {background-color: aqua;}
+    50% {background-color: red;}
+    75% {background-color: green;}
+    100% {background-color: yellow;}
+} */
+/* @keyframes örnek{
+    0% {background-color: blueviolet;left: 0px;top: 0px;}
+    25% {background-color: aqua;left: 20px;top: 40px;}
+    50% {background-color: red;left: 40px;top: 80px;}
+    75% {background-color: green;left: 60px;top: 120px;}
+    100% {background-color: yellow;left: 80px;top: 160px;}
+} */
+/* @keyframes örnek{
+    0% {background-color: blueviolet;left: 0px;top: 0px;}
+    25% {background-color: aqua;left: 20px;top: 40px;}
+    50% {background-color: red;left: 40px;top: 80px;}
+    75% {background-color: green;left: 60px;top: 120px;}
+    100% {background-color: yellow;left: 80px;top: 160px;}
+} */
+
+
+/* * {
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+@media (max-width:600px){
+    .column {
+        width: 100%;
+        color: red;
+    }
+}
+
+@media (min-width:600px) and (max-width:900px) {
+    .column {
+        width: 50%;
+        color:blue;
+
+    }
+} */

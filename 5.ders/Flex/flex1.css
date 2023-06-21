@@ -1,0 +1,23 @@
+.flex-container{
+    display: flex;
+    background-color: aquamarine;
+    border-radius: 4px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:baseline;
+    height: 300px;
+    align-content: center;
+   
+}
+
+.flex-container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 85px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    font-size: 30px;
+    background-color: wheat;
+}
